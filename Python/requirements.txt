@@ -3,7 +3,7 @@ pika==1.3.2             # RabbitMQ客户端（兼容3.11）
 requests==2.31.0        # HTTP请求（已验证兼容性）
 beautifulsoup4==4.12.3  # HTML解析
 hdfs==2.7.3             # HDFS客户端（需配合thrift）
-happybase==2.0.0        # HBase客户端（支持thrift 0.16.0）[1](@ref)
+happybase==1.2.0        # HBase客户端（支持thrift 0.16.0）[1](@ref)
 psutil==5.9.8           # 系统监控
 
 # 异步支持（Python 3.11优化）
@@ -11,10 +11,10 @@ aiohttp==3.9.5          # 异步HTTP客户端（适配零成本异常）
 anyio==4.4.0            # 异步I/O基础库
 
 # 开发工具
-python-dotenv==1.3.0    # 环境变量管理
+python-dotenv==1.0.1    # 环境变量管理
 ipython==8.22.2         # REPL环境
 mypy==1.10              # 类型检查（支持Self类型）[1](@ref)
-types-requests==2.31.0.20240501  # 最新类型提示
+types-requests==2.32.0.20250301  # 最新类型提示
 
 # 依赖管理
-thrift==0.16.0          # HBase通信协议（必须指定版本）
+thrift==0.16.0          # HBase通信协议
